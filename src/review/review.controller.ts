@@ -9,7 +9,5 @@ export class ReviewController {
 	public async delete(@Param('id') id: string) {}
 
 	@Get('byProduct/:productId')
-	public async getByProduct(@Param('productId') productId: string) {
-        
-    }
+	public async getByProduct(@Param('productId') productId: string) {}
 }

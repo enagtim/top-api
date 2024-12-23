@@ -4,7 +4,7 @@ export enum TopLevelCategory {
 	Books,
 	Products,
 }
-export interface ITopPageModel {
+export class ITopPageModel {
 	_id: string;
 	firstLevelCategory: TopLevelCategory;
 	secondCategory: string;
