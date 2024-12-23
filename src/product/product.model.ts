@@ -1,4 +1,5 @@
-export class ProductModel {
+export interface IProductModel {
+	_id: string;
 	image: string;
 	title: string;
 	price: number;
