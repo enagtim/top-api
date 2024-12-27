@@ -12,7 +12,7 @@ class ProductCharacteristic {
 }
 @Schema({ timestamps: true })
 export class ProductModel {
-	@Prop({ type: Types.ObjectId, required: true, auto: true })
+	@Prop({ type: Types.ObjectId, auto: true })
 	_id: Types.ObjectId;
 	@Prop()
 	image: string;
