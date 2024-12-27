@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { AuthController } from './auth.controller';
 import { MongooseModule } from '@nestjs/mongoose';
-import { AuthModelSchema } from './auth.model';
+import { AuthModelSchema } from './models/auth.model';
 
 @Module({
 	controllers: [AuthController],
